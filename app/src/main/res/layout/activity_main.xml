@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#2ecc71">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170sp">
+
+        <Button
+            android:id="@+id/Up_Button"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="39dp"
+            android:background="#00d2d3"
+            android:text="UP"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170sp">
+
+        <TextView
+            android:id="@+id/num_S"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#27ae60"
+            android:text="@string/title"
+            android:textColor="#ecf0f1"
+            android:textSize="150sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="241dp">
+
+        <Button
+            android:id="@+id/Reset_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="16dp"
+            android:background="#2d3436"
+            android:text="Reset_To_0"
+            android:textColor="@android:color/background_light"
+            android:textSize="42dp" />
+
+        <Button
+            android:id="@+id/Down_Button"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="60dp"
+            android:background="#00d2d3"
+            android:text="DOWN"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
